@@ -1,0 +1,126 @@
+.page-bg {
+  background-image: url(./assets/Theme.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+  justify-content: space-around;
+}
+
+.hero-text h1 {
+  /* position: relative;
+  top: 0;      
+  left: 1;  */
+  display: grid;
+  height: 70vh;  /* Full viewport height */
+  align-items: start;
+  font-size: 60px;
+  color: #170b01;
+}
+
+.hero-text h2 {
+  /* position: relative;
+  top: 0;      
+  left: 1;  */
+  display: grid;
+  height: 0vh;  /* Full viewport height */
+  font-size: 30px;
+  color: #f1f4f5;
+}
+
+.hero-img img {
+  width: 90%;
+  height: auto;
+}
+
+
+
+/* Navbar styles */
+.navbar {
+  color: #130303;
+  height: 10vh;
+  text-align: left; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  background-color: #fff;
+  padding: 20px 40px;
+  gap: 40px; 
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar img {
+  width: 50px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start; 
+  padding: 0;
+  margin-left: 20px; 
+}
+
+.nav-link {
+  color: #140606;
+  transition-duration: 300ms;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.login {
+  position: absolute;
+  right: 120px;
+  color: #140606;
+  transition-duration: 300ms;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.signup{
+  position: absolute;
+  right: 30px;
+  color: #140606;
+  transition-duration: 300ms;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.nav-link:hover {
+  background-color: #e98c29;
+  border-radius: 5px;
+  padding: 15px 20px; /* Increase padding on hover */
+  margin: -5px -5px; /* Adjust margin to keep the link in the same position */
+  color: #f9f6f5; /* Optional: Change text color on hover */
+}
+ 
+.login:hover {
+  background-color: #e98c29;
+  border-radius: 5px;
+  padding: 9px 15px; /* Increase padding on hover */
+  margin: -5px -5px; /* Adjust margin to keep the link in the same position */
+  color: #f9f6f5;
+} 
+
+.signup:hover {
+  background-color: #e98c29;
+  border-radius: 5px;
+  padding: 9px 15px; /* Increase padding on hover */
+  margin: -5px -5px; /* Adjust margin to keep the link in the same position */
+  color: #f9f6f5;
+}
+

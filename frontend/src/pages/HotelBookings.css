@@ -1,0 +1,53 @@
+.hotel-booking-container {
+    display: flex;
+    justify-content: center;
+    min-height:100vh;
+    align-items: center; 
+    background-color: #f0f0f0;
+}
+
+/* Styling the booking form */
+.hotel-booking-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hotel-booking-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.hotel-booking-form input[type="date"],
+.hotel-booking-form input[type="number"],
+.hotel-booking-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Button Styling */
+.hotel-booking-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hotel-booking-btn:hover {
+    background-color: #0056b3;
+}

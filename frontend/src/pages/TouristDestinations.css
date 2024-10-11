@@ -1,0 +1,47 @@
+.tourist-destinations-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .packages-list {
+    margin-top: 20px;
+  }
+  
+  .package-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }

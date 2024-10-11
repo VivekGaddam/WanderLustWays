@@ -1,0 +1,119 @@
+/* Centering the form on the page */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling the form */
+  .signup-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .signup-form input[type="text"],
+  .signup-form input[type="password"],
+  .signup-form input[type="email"],
+  .signup-form input[type="file"],
+  .signup-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+
+  .interests{
+    height : 20vh;
+    margin-bottom: 10px;
+  }
+  
+  .signup-form input {
+    height: 40px;
+  }
+  
+  .signup-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+
+/*Login css*/
+/* Center the form on the page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling the form */
+  .login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .login-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-form button:hover {
+    background-color: #218838;
+  }
+  

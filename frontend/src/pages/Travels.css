@@ -1,0 +1,42 @@
+.page-bg{
+    background-image: url(../assets/blur_temp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+.travels-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .travels-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    border: none;
+    background-color: #446cf0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #365fe5;
+  }
